@@ -1,0 +1,8 @@
+version: v2.0
+
+on:
+  schedules:
+    cron: "*/2 * * * *"
+
+steps:
+- run: echo ${{ ci.event }}

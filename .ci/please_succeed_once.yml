@@ -1,3 +1,6 @@
 version: v2.0
+
 steps:
+
+- run: echo ${{ ci.event }}
 - run: echo ${{ ci.event }}
